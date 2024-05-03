@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 70px;
+  text-align: center;
+  width: 70px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.square:disabled {
+  background-color: #282c34;
+  color:#fff;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: #999;
+  opacity: 0.4;
+}
+
+.winner {
+  color: green;
+}
+
+.not-winner {
+  color: red;
+}
+

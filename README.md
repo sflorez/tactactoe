@@ -1,5 +1,5 @@
 # tactactoe
-tic tac toe demo using websockets and react frontend, completed games with wins are stored in postgresdb
+tic tac toe demo using webhooks and react frontend, completed games with wins are stored in postgresdb
 
 ## dependencies:
 - postgres
